@@ -10,24 +10,30 @@ public protocol CSApplicationConstants {
     
     var applicationId: String { get }
 
-    var appLaunch: CSEventKey { get }
-    
-    var homeElementsAppear: CSEventKey { get }
-    
-    var enterSearch: CSEventKey { get }
-    
-    var searchResultsAppear: CSEventKey { get }
-    
-    var clickOnSearchResult: CSEventKey { get }
-    
+    var appLaunchTrue: CSEventKey { get }
+    var appLaunchFalse: CSEventKey { get }
+
+    var homeElementsAppearSuccess: CSEventKey { get }
+    var homeElementsAppearFail: CSEventKey { get }
+
+    var enterSearchYes: CSEventKey { get }
+    var enterSearchNo: CSEventKey { get }
+
+    var searchResultsAppearYes: CSEventKey { get }
+    var searchResultsAppearNo: CSEventKey { get }
+
+    var clickOnSearchResultYes: CSEventKey { get }
+    var clickOnSearchResultNo: CSEventKey { get }
+
     var searchDetailsAppear: CSEventKey{ get }
     
 }
+
 public class EventConstants:NSObject{
     
     public var appCoordinates : CSApplicationCoordinates?
     public var appConstants : CSApplicationConstants?
-
+    
     public init(appCoordinates : CSApplicationCoordinates)
     {
         super.init()
@@ -67,11 +73,13 @@ public struct CSApplicationCoordinates{
 }
 public struct CSEventKey
 {
-    internal var key : String
-    internal var valueRequired : Bool
-    
-    public init(key: String, valueRequired: Bool = false) {
+    public var key : String
+    public var valueRequired : Bool
+    public var useful : Bool
+
+    public init(key: String, valueRequired: Bool = false,useful:Bool = true) {
         self.key = key
         self.valueRequired = valueRequired
+        self.useful = true
     }
 }
