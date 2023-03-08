@@ -27,13 +27,14 @@ public protocol CSApplicationConstants {
 
     var searchDetailsAppear: CSEventKey{ get }
     
+    func checkEvent(eventName:String,eventValue:String?) -> Bool
+    func checkApp(applicationId: String) -> Bool
 }
 
 public class EventConstants:NSObject{
     
     public var appCoordinates : CSApplicationCoordinates?
     public var appConstants : CSApplicationConstants?
-    
     public init(appCoordinates : CSApplicationCoordinates)
     {
         super.init()
@@ -47,6 +48,8 @@ public class EventConstants:NSObject{
             return CS5GmarkConstants()
         case "com.hotstar.mobile":
             return CSHotStarConstants()
+        case "default_application_name":
+            return CSDefaultApplicationConstants()
         default:
             return nil
         }
