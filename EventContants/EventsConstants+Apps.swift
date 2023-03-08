@@ -12,16 +12,21 @@ extension EventConstants
         
         public var applicationId: String = "com.hotstar.mobile"
         
-        public var appLaunch : CSEventKey  = CSEventKey(key: "appLaunch")
-        
-        public var homeElementsAppear: CSEventKey  = CSEventKey(key: "homeElementsAppear")
-        
-        public var enterSearch: CSEventKey  = CSEventKey(key: "enterSearch")
-        
-        public var searchResultsAppear: CSEventKey  = CSEventKey(key: "searchResultsAppear")
-        
-        public var clickOnSearchResult: CSEventKey  = CSEventKey(key: "clickOnSearchResult")
-        
+        public var appLaunchTrue : CSEventKey  = CSEventKey(key: "appLaunchTrue")
+        public var appLaunchFalse : CSEventKey  = CSEventKey(key: "appLaunchFalse")
+
+        public var homeElementsAppearSuccess: CSEventKey  = CSEventKey(key: "homeElementsAppearSuccess")
+        public var homeElementsAppearFail: CSEventKey  = CSEventKey(key: "homeElementsAppearSuccess")
+
+        public var enterSearchYes: CSEventKey  = CSEventKey(key: "enterSearchYes")
+        public var enterSearchNo: CSEventKey  = CSEventKey(key: "enterSearchNo")
+
+        public var searchResultsAppearYes: CSEventKey  = CSEventKey(key: "searchResultsAppearYes")
+        public var searchResultsAppearNo: CSEventKey  = CSEventKey(key: "searchResultsAppearNo")
+
+        public var clickOnSearchResultYes: CSEventKey  = CSEventKey(key: "clickOnSearchResultYes")
+        public var clickOnSearchResultNo: CSEventKey  = CSEventKey(key: "clickOnSearchResultNo")
+
         public var searchDetailsAppear: CSEventKey  = CSEventKey(key: "searchDetailsAppear",valueRequired: true)
         
     }
@@ -29,17 +34,22 @@ extension EventConstants
         
         public var applicationId: String = "com.5gmark.mobile"
 
-        public var appLaunch : CSEventKey  = CSEventKey(key: "appLaunch")
-        
-        public var homeElementsAppear: CSEventKey  = CSEventKey(key: "homeElementsAppear")
-        
-        public var enterSearch: CSEventKey  = CSEventKey(key: "enterSearch")
-        
-        public var searchResultsAppear: CSEventKey  = CSEventKey(key: "searchResultsAppear")
-        
-        public var clickOnSearchResult: CSEventKey  = CSEventKey(key: "clickOnSearchResult")
-        
+        public var appLaunchTrue : CSEventKey  = CSEventKey(key: "appLaunchTrue")
+        public var appLaunchFalse : CSEventKey  = CSEventKey(key: "appLaunchFalse")
+
+        public var homeElementsAppearSuccess: CSEventKey  = CSEventKey(key: "homeElementsAppearSuccess")
+        public var homeElementsAppearFail: CSEventKey  = CSEventKey(key: "homeElementsAppearSuccess")
+
+        public var enterSearchYes: CSEventKey  = CSEventKey(key: "enterSearchYes")
+        public var enterSearchNo: CSEventKey  = CSEventKey(key: "enterSearchNo")
+
+        public var searchResultsAppearYes: CSEventKey  = CSEventKey(key: "searchResultsAppearYes")
+        public var searchResultsAppearNo: CSEventKey  = CSEventKey(key: "searchResultsAppearNo")
+
+        public var clickOnSearchResultYes: CSEventKey  = CSEventKey(key: "clickOnSearchResultYes",useful: false)
+        public var clickOnSearchResultNo: CSEventKey  = CSEventKey(key: "clickOnSearchResultNo",useful: false)
+
         public var searchDetailsAppear: CSEventKey  = CSEventKey(key: "searchDetailsAppear",valueRequired: true)
-        
+
     }
 }
