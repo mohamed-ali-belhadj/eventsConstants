@@ -1,35 +1,11 @@
 //
-//  EventConstants.swift
+//  CSEventConstants.swift
 //  EventContants
 //
 //  Created by Mohamed Ali BELHADJ on 07/03/2023.
 //
 
 import Foundation
-public protocol CSApplicationConstants {
-    
-    var applicationId: String { get }
-
-    var appLaunchTrue: CSEventKey { get }
-    var appLaunchFalse: CSEventKey { get }
-
-    var homeElementsAppearSuccess: CSEventKey { get }
-    var homeElementsAppearFail: CSEventKey { get }
-
-    var enterSearchYes: CSEventKey { get }
-    var enterSearchNo: CSEventKey { get }
-
-    var searchResultsAppearYes: CSEventKey { get }
-    var searchResultsAppearNo: CSEventKey { get }
-
-    var clickOnSearchResultYes: CSEventKey { get }
-    var clickOnSearchResultNo: CSEventKey { get }
-
-    var searchDetailsAppear: CSEventKey{ get }
-    
-    func checkEvent(eventName:String,eventValue:String?) -> Bool
-    func checkApp(applicationId: String) -> Bool
-}
 
 public class EventConstants:NSObject{
     
@@ -55,7 +31,6 @@ public class EventConstants:NSObject{
         }
     }
 }
-
 public struct CSApplicationCoordinates{
     /// The app name
     public var applicationName: String = ""
@@ -72,17 +47,5 @@ public struct CSApplicationCoordinates{
         self.applicationId = applicationId ?? "default_application_package_name"
         self.applicationVersion = applicationVersion ?? "default_application_package_version"
         self.eventURL = eventURL ?? "default_event_url"
-    }
-}
-public struct CSEventKey
-{
-    public var key : String
-    public var valueRequired : Bool
-    public var useful : Bool
-
-    public init(key: String, valueRequired: Bool = false,useful:Bool = true) {
-        self.key = key
-        self.valueRequired = valueRequired
-        self.useful = true
     }
 }

@@ -2,7 +2,7 @@
 //  EventContantsTests.swift
 //  EventContantsTests
 //
-//  Created by MacBook Pro on 07/03/2023.
+//  Created by Mohamed Ali BELHADJ on 07/03/2023.
 //
 
 import XCTest
@@ -16,13 +16,16 @@ final class EventConstantsTests: XCTestCase {
     }
     func testGetEquivalentConstants() {
         XCTAssert(EventConstantsTests.eventConstants.appConstants?.applicationId == "com.hotstar.mobile","applicationId does not valid")
-        XCTAssert(EventConstantsTests.eventConstants.appConstants?.appLaunch.key == "appLaunch","appLaunch does not valid")
-        XCTAssert(EventConstantsTests.eventConstants.appConstants?.homeElementsAppear.key == "homeElementsAppear","homeElementsAppear does not valid")
-        XCTAssert(EventConstantsTests.eventConstants.appConstants?.enterSearch.key == "enterSearch","enterSearch does not valid")
-        XCTAssert(EventConstantsTests.eventConstants.appConstants?.searchResultsAppear.key == "searchResultsAppear","searchResultsAppear does not valid")
-        XCTAssert(EventConstantsTests.eventConstants.appConstants?.clickOnSearchResult.key == "clickOnSearchResult","clickOnSearchResult does not valid")
+        XCTAssert(EventConstantsTests.eventConstants.appConstants?.appLaunchTrue.key == "appLaunchTrue","appLaunch does not valid")
+        XCTAssert(EventConstantsTests.eventConstants.appConstants?.homeElementsAppearSuccess.key == "homeElementsAppearSuccess","homeElementsAppear does not valid")
+        XCTAssert(EventConstantsTests.eventConstants.appConstants?.enterSearchYes.key == "enterSearchYes","enterSearch does not valid")
+        XCTAssert(EventConstantsTests.eventConstants.appConstants?.searchResultsAppearYes.key == "searchResultsAppearYes","searchResultsAppear does not valid")
+        XCTAssert(EventConstantsTests.eventConstants.appConstants?.clickOnSearchResultYes.key == "clickOnSearchResultYes","clickOnSearchResult does not valid")
         XCTAssert(EventConstantsTests.eventConstants.appConstants?.searchDetailsAppear.key == "searchDetailsAppear","searchDetailsAppear does not valid")
         XCTAssert(EventConstantsTests.eventConstants.appConstants?.searchDetailsAppear.valueRequired == true,"searchDetailsAppear value is required")
+        XCTAssert(EventConstantsTests.eventConstants.appConstants?.checkEvent(eventName: "appLaunchTrue", eventValue: nil, testCaseName: "AppLaunch") == true,"checkEvent do not pass ")
+        XCTAssert(EventConstantsTests.eventConstants.appConstants?.checkIfWeHaveStoreAllEventNeededForAllTestCaseNames(eventNames: ["appLaunchTrue","appLaunchFalse","homeElementsAppearSuccess","homeElementsAppearFail","enterSearchYes","enterSearchNo","searchResultsAppearYes","searchResultsAppearNo","clickOnSearchResultYes","clickOnSearchResultNo","searchDetailsAppear"]) == true,"there are missing events")
+
     }
     override class func tearDown() {
         print("Called after all Tests")
