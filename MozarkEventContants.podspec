@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MozarkEventContants"
-  spec.version      = "1.5.1"
+  spec.version      = "1.5.2"
   spec.summary      = "A short description of MozarkEventContants."
   spec.swift_version	 = '5.0'
   spec.description  =  "MozarkEventContants used to store constants"

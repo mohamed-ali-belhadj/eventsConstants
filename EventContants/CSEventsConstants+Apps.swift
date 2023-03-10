@@ -9,6 +9,7 @@ import Foundation
 //for each app you must define the keys to use and remove keys not to use (this key must be declared as optional in the CSApplicationConstants protocol)
     public class CS5GmarkConstants:CSDefaultApplicationConstants {
         //for each app you must define the keys to use and remove keys not to use (this key must be declared as optional in the CSApplicationConstants protocol)
+        public override init() {super.init()}
         public override var applicationId: String {
             get { return "com.5gmark.mobile" }
             set {}
@@ -67,6 +68,8 @@ import Foundation
     }
     public class CSHotStarConstants:CSDefaultApplicationConstants {
         //for each app you must define the keys to use and remove keys not to use (this key must be declared as optional in the CSApplicationConstants protocol)
+        public override init() {super.init()}
+
         public override var applicationId: String {
             get { return "com.hotstar.mobile" }
             set {}

@@ -56,6 +56,7 @@ public class CSDefaultApplicationConstants:CSApplicationConstants,CustomReflecta
     //This class is used to declare attributes with default values and also define methods once and for all for event keys verification methods
     //Each object inherits from this class can inherit all objects and set their exact values for event keys as it can remove event keys if they are already defined as optional in the CSApplicationConstants protocol
     //initialize all attributes, you can set optional attribut not useful by default
+    public init() {}
 
     public var applicationId: String = "default_application_name"
     public var endEventYes : CSEventKey  = CSEventKey(key: "endEventYes", testCaseName: "end")
