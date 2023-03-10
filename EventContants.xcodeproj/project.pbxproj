@@ -81,8 +81,8 @@
 			children = (
 				AB0E1C1229B7779900B2CC6C /* EventContants.h */,
 				AB0E1C2729B777C500B2CC6C /* CSEventConstants.swift */,
-				AB4BC70C29BA2433000A0EE2 /* CSDefaultApplicationConstants.swift */,
 				AB4BC70F29BA2475000A0EE2 /* CSEventKey.swift */,
+				AB4BC70C29BA2433000A0EE2 /* CSDefaultApplicationConstants.swift */,
 				AB0E1C2929B792ED00B2CC6C /* CSEventsConstants+Apps.swift */,
 			);
 			path = EventContants;

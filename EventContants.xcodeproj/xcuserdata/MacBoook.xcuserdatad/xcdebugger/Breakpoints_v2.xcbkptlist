@@ -7,36 +7,20 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6BA89E2D-6AB9-4109-9CB2-15C1250CCC1D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "EventContantsTests/EventContantsTests.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "testGetEquivalentConstants()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "2B3584DA-A681-4D56-B9C6-D3BD08967C9A"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EventContants/CSDefaultApplicationConstants.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
             landmarkName = "checkEvent(eventName:eventValue:testCaseName:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "2B3584DA-A681-4D56-B9C6-D3BD08967C9A - 8f17472879606e23"
+                  uuid = "2B3584DA-A681-4D56-B9C6-D3BD08967C9A - 8f17472879606201"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -46,12 +30,12 @@
                   urlString = "file:///Users/MacBoook/Documents/MozarkEventConstantsSDK/EventContants/CSDefaultApplicationConstants.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "65"
-                  endingLineNumber = "65"
-                  offsetFromSymbolStart = "883">
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "867">
                </Location>
                <Location
-                  uuid = "2B3584DA-A681-4D56-B9C6-D3BD08967C9A - 9392a4d944bb899e"
+                  uuid = "2B3584DA-A681-4D56-B9C6-D3BD08967C9A - 9392a4d944bb85bc"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -61,12 +45,12 @@
                   urlString = "file:///Users/MacBoook/Documents/MozarkEventConstantsSDK/EventContants/CSDefaultApplicationConstants.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "65"
-                  endingLineNumber = "65"
-                  offsetFromSymbolStart = "883">
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "867">
                </Location>
                <Location
-                  uuid = "2B3584DA-A681-4D56-B9C6-D3BD08967C9A - 8f17472879606d7a"
+                  uuid = "2B3584DA-A681-4D56-B9C6-D3BD08967C9A - 8f174728796061bd"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -76,12 +60,12 @@
                   urlString = "file:///Users/MacBoook/Documents/MozarkEventConstantsSDK/EventContants/CSDefaultApplicationConstants.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "90"
-                  endingLineNumber = "90"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
                   offsetFromSymbolStart = "672">
                </Location>
                <Location
-                  uuid = "2B3584DA-A681-4D56-B9C6-D3BD08967C9A - 9392a4d944bb8ac7"
+                  uuid = "2B3584DA-A681-4D56-B9C6-D3BD08967C9A - 9392a4d944bb8600"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -91,8 +75,38 @@
                   urlString = "file:///Users/MacBoook/Documents/MozarkEventConstantsSDK/EventContants/CSDefaultApplicationConstants.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "90"
-                  endingLineNumber = "90"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "672">
+               </Location>
+               <Location
+                  uuid = "2B3584DA-A681-4D56-B9C6-D3BD08967C9A - 8f17472879606682"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EventContantsTests.CSDefaultApplicationConstants.checkEvent(eventName: Swift.String, eventValue: Swift.Optional&lt;Swift.String&gt;, testCaseName: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "EventContantsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBoook/Documents/MozarkEventConstantsSDK/EventContants/CSDefaultApplicationConstants.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "672">
+               </Location>
+               <Location
+                  uuid = "2B3584DA-A681-4D56-B9C6-D3BD08967C9A - 9392a4d944bb813f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EventContants.CSDefaultApplicationConstants.checkEvent(eventName: Swift.String, eventValue: Swift.Optional&lt;Swift.String&gt;, testCaseName: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "EventContants"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBoook/Documents/MozarkEventConstantsSDK/EventContants/CSDefaultApplicationConstants.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
                   offsetFromSymbolStart = "672">
                </Location>
             </Locations>
@@ -108,14 +122,44 @@
             filePath = "EventContants/CSDefaultApplicationConstants.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
             landmarkName = "checkIfWeHaveStoreAllEventNeededForAllTestCaseNames(eventNames:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "D6F1F929-24D4-41B9-972A-442803E58CAF - 2685d6ec69fbf39e"
-                  shouldBeEnabled = "No"
+                  uuid = "D6F1F929-24D4-41B9-972A-442803E58CAF - 8f17472879606d5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EventContantsTests.CSDefaultApplicationConstants.checkEvent(eventName: Swift.String, eventValue: Swift.Optional&lt;Swift.String&gt;, testCaseName: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "EventContantsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBoook/Documents/MozarkEventConstantsSDK/EventContants/CSDefaultApplicationConstants.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "375">
+               </Location>
+               <Location
+                  uuid = "D6F1F929-24D4-41B9-972A-442803E58CAF - 9392a4d944bb8ae6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EventContants.CSDefaultApplicationConstants.checkEvent(eventName: Swift.String, eventValue: Swift.Optional&lt;Swift.String&gt;, testCaseName: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "EventContants"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBoook/Documents/MozarkEventConstantsSDK/EventContants/CSDefaultApplicationConstants.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "375">
+               </Location>
+               <Location
+                  uuid = "D6F1F929-24D4-41B9-972A-442803E58CAF - 2685d6ec69fbfc02"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "EventContantsTests.CSDefaultApplicationConstants.checkIfWeHaveStoreAllEventNeededForAllTestCaseNames(eventNames: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Bool"
@@ -124,13 +168,13 @@
                   urlString = "file:///Users/MacBoook/Documents/MozarkEventConstantsSDK/EventContants/CSDefaultApplicationConstants.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
                   offsetFromSymbolStart = "2231">
                </Location>
                <Location
-                  uuid = "D6F1F929-24D4-41B9-972A-442803E58CAF - 446b54fe4aaad4b3"
-                  shouldBeEnabled = "No"
+                  uuid = "D6F1F929-24D4-41B9-972A-442803E58CAF - 446b54fe4aaadb2f"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "EventContants.CSDefaultApplicationConstants.checkIfWeHaveStoreAllEventNeededForAllTestCaseNames(eventNames: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Bool"
@@ -139,8 +183,38 @@
                   urlString = "file:///Users/MacBoook/Documents/MozarkEventConstantsSDK/EventContants/CSDefaultApplicationConstants.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "2231">
+               </Location>
+               <Location
+                  uuid = "D6F1F929-24D4-41B9-972A-442803E58CAF - 2685d6ec69fbff1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EventContantsTests.CSDefaultApplicationConstants.checkIfWeHaveStoreAllEventNeededForAllTestCaseNames(eventNames: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Bool"
+                  moduleName = "EventContantsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBoook/Documents/MozarkEventConstantsSDK/EventContants/CSDefaultApplicationConstants.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "2231">
+               </Location>
+               <Location
+                  uuid = "D6F1F929-24D4-41B9-972A-442803E58CAF - 446b54fe4aaad836"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EventContants.CSDefaultApplicationConstants.checkIfWeHaveStoreAllEventNeededForAllTestCaseNames(eventNames: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Bool"
+                  moduleName = "EventContants"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBoook/Documents/MozarkEventConstantsSDK/EventContants/CSDefaultApplicationConstants.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
                   offsetFromSymbolStart = "2231">
                </Location>
             </Locations>

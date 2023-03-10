@@ -1,18 +1,19 @@
 //
-//  CSEventsConstants+Apps.swift
+//  EventsConstants+Apps.swift
 //  EventContants
 //
 //  Created by Mohamed Ali BELHADJ on 07/03/2023.
 //
 
 import Foundation
-
+//for each app you must define the keys to use and remove keys not to use (this key must be declared as optional in the CSApplicationConstants protocol)
     public class CS5GmarkConstants:CSDefaultApplicationConstants {
-        
+        //for each app you must define the keys to use and remove keys not to use (this key must be declared as optional in the CSApplicationConstants protocol)
         public override var applicationId: String {
             get { return "com.5gmark.mobile" }
             set {}
         }
+        // I can remove appLaunchTrue because it's optionnal attribut
         public override var appLaunchTrue: CSEventKey {
             get { return CSEventKey(key: "appLaunchTrue", testCaseName: "AppLaunch") }
             set {}
@@ -58,18 +59,19 @@ import Foundation
             set {}
         }
         public override var customMirror: Mirror {
-                return Mirror(self,
-                              children: ["applicationId": applicationId,"appLaunchTrue":appLaunchTrue,"appLaunchFalse":appLaunchFalse,"homeElementsAppearSuccess":homeElementsAppearSuccess,"homeElementsAppearFail":homeElementsAppearFail,"enterSearchYes":enterSearchYes,"enterSearchNo":enterSearchNo,"searchResultsAppearYes":searchResultsAppearYes,"searchResultsAppearNo":searchResultsAppearNo,"clickOnSearchResultYes":clickOnSearchResultYes,"clickOnSearchResultNo":clickOnSearchResultNo,"searchDetailsAppear":searchDetailsAppear],
+            // add all keys to capt (required+optional or default keys)
+            return Mirror(self,
+                              children: ["applicationId": applicationId,"endEventYes":endEventYes,"startEventYes":startEventYes,"appLaunchTrue":appLaunchTrue,"appLaunchFalse":appLaunchFalse,"homeElementsAppearSuccess":homeElementsAppearSuccess,"homeElementsAppearFail":homeElementsAppearFail,"enterSearchYes":enterSearchYes,"enterSearchNo":enterSearchNo,"searchResultsAppearYes":searchResultsAppearYes,"searchResultsAppearNo":searchResultsAppearNo,"clickOnSearchResultYes":clickOnSearchResultYes,"clickOnSearchResultNo":clickOnSearchResultNo,"searchDetailsAppear":searchDetailsAppear],
                               displayStyle: .struct)
             }
     }
     public class CSHotStarConstants:CSDefaultApplicationConstants {
-        
-        
+        //for each app you must define the keys to use and remove keys not to use (this key must be declared as optional in the CSApplicationConstants protocol)
         public override var applicationId: String {
             get { return "com.hotstar.mobile" }
             set {}
         }
+        // I can remove appLaunchTrue because it's optionnal attribut
         public override var appLaunchTrue: CSEventKey {
             get { return CSEventKey(key: "appLaunchTrue", testCaseName: "AppLaunch") }
             set {}
@@ -114,9 +116,10 @@ import Foundation
             get { return CSEventKey(key: "searchDetailsAppear", testCaseName: "TimeToLoadDetailsPage",valueRequired: true) }
             set {}
         }
+        // add all keys to capt (required+optional or default keys)
         public override var customMirror: Mirror {
                 return Mirror(self,
-                              children: ["applicationId": applicationId,"appLaunchTrue":appLaunchTrue,"appLaunchFalse":appLaunchFalse,"homeElementsAppearSuccess":homeElementsAppearSuccess,"homeElementsAppearFail":homeElementsAppearFail,"enterSearchYes":enterSearchYes,"enterSearchNo":enterSearchNo,"searchResultsAppearYes":searchResultsAppearYes,"searchResultsAppearNo":searchResultsAppearNo,"clickOnSearchResultYes":clickOnSearchResultYes,"clickOnSearchResultNo":clickOnSearchResultNo,"searchDetailsAppear":searchDetailsAppear],
+                              children: ["applicationId": applicationId,"endEventYes":endEventYes,"startEventYes":startEventYes,"appLaunchTrue":appLaunchTrue,"appLaunchFalse":appLaunchFalse,"homeElementsAppearSuccess":homeElementsAppearSuccess,"homeElementsAppearFail":homeElementsAppearFail,"enterSearchYes":enterSearchYes,"enterSearchNo":enterSearchNo,"searchResultsAppearYes":searchResultsAppearYes,"searchResultsAppearNo":searchResultsAppearNo,"clickOnSearchResultYes":clickOnSearchResultYes,"clickOnSearchResultNo":clickOnSearchResultNo,"searchDetailsAppear":searchDetailsAppear],
                               displayStyle: .struct)
             }
     }
