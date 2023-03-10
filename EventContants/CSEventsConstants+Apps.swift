@@ -15,48 +15,48 @@ import Foundation
             set {}
         }
         // I can remove appLaunchTrue because it's optionnal attribut
-        public override var appLaunchTrue: CSEventKey {
-            get { return CSEventKey(key: "appLaunchTrue", testCaseName: "AppLaunch") }
+        public override var appLaunchTrue: CSEvent {
+            get { return CSEvent(key: "appLaunch", value: "True",testCaseName: "AppLaunch") }
             set {}
         }
-        public override var appLaunchFalse: CSEventKey {
-            get { return CSEventKey(key: "appLaunchFalse", testCaseName: "AppLaunch") }
+        public override var appLaunchFalse: CSEvent {
+            get { return CSEvent(key: "appLaunch", value: "false",testCaseName: "AppLaunch") }
             set {}
         }
-        public override var homeElementsAppearSuccess: CSEventKey {
-            get { return CSEventKey(key: "homeElementsAppearSuccess", testCaseName: "TimeToLoadHomePage") }
+        public override var homeElementsAppearSuccess: CSEvent {
+            get { return CSEvent(key: "homeElementsAppear", value: "Success",testCaseName: "TimeToLoadHomePage") }
             set {}
         }
-        public override var homeElementsAppearFail: CSEventKey {
-            get { return CSEventKey(key: "homeElementsAppearFail", testCaseName: "TimeToLoadHomePage") }
+        public override var homeElementsAppearFail: CSEvent {
+            get { return CSEvent(key: "homeElementsAppear", value: "Fail",testCaseName: "TimeToLoadHomePage") }
             set {}
         }
-        public override var enterSearchYes: CSEventKey {
-            get { return CSEventKey(key: "enterSearchYes", testCaseName: "SearchResultTime") }
+        public override var enterSearchYes: CSEvent {
+            get { return CSEvent(key: "enterSearch", value: "Yes",testCaseName: "SearchResultTime") }
             set {}
         }
-        public override var enterSearchNo: CSEventKey {
-            get { return CSEventKey(key: "enterSearchNo", testCaseName: "SearchResultTime") }
+        public override var enterSearchNo: CSEvent {
+            get { return CSEvent(key: "enterSearch", value: "No",testCaseName: "SearchResultTime") }
             set {}
         }
-        public override var searchResultsAppearYes: CSEventKey {
-            get { return CSEventKey(key: "searchResultsAppearYes", testCaseName: "SearchResultTime") }
+        public override var searchResultsAppearYes: CSEvent {
+            get { return CSEvent(key: "searchResultsAppear", value: "Yes",testCaseName: "SearchResultTime") }
             set {}
         }
-        public override var searchResultsAppearNo: CSEventKey {
-            get { return CSEventKey(key: "searchResultsAppearNo", testCaseName: "SearchResultTime") }
+        public override var searchResultsAppearNo: CSEvent {
+            get { return CSEvent(key: "searchResultsAppear", value: "No",testCaseName: "SearchResultTime") }
             set {}
         }
-        public override var clickOnSearchResultYes: CSEventKey {
-            get { return CSEventKey(key: "clickOnSearchResultYes", testCaseName: "SearchResultTime") }
+        public override var clickOnSearchResultYes: CSEvent {
+            get { return CSEvent(key: "clickOnSearchResult", value: "Yes",testCaseName: "SearchResultTime") }
             set {}
         }
-        public override var clickOnSearchResultNo: CSEventKey {
-            get { return CSEventKey(key: "clickOnSearchResultNo", testCaseName: "SearchResultTime") }
+        public override var clickOnSearchResultNo: CSEvent {
+            get { return CSEvent(key: "clickOnSearchResult", value: "No",testCaseName: "SearchResultTime") }
             set {}
         }
-        public override var searchDetailsAppear: CSEventKey {
-            get { return CSEventKey(key: "searchDetailsAppear", testCaseName: "TimeToLoadDetailsPage",valueRequired: true) }
+        public override var searchDetailsAppear: CSEvent {
+            get { return CSEvent(key: "searchDetailsAppear", value: "Yes",testCaseName: "TimeToLoadDetailsPage") }
             set {}
         }
         public override var customMirror: Mirror {
@@ -75,48 +75,48 @@ import Foundation
             set {}
         }
         // I can remove appLaunchTrue because it's optionnal attribut
-        public override var appLaunchTrue: CSEventKey {
-            get { return CSEventKey(key: "appLaunchTrue", testCaseName: "AppLaunch") }
+        public override var appLaunchTrue: CSEvent {
+            get { return CSEvent(key: "appLaunch", value: "True",testCaseName: "AppLaunch") }
             set {}
         }
-        public override var appLaunchFalse: CSEventKey {
-            get { return CSEventKey(key: "appLaunchFalse", testCaseName: "AppLaunch") }
+        public override var appLaunchFalse: CSEvent {
+            get { return CSEvent(key: "appLaunch", value: "false",testCaseName: "AppLaunch") }
             set {}
         }
-        public override var homeElementsAppearSuccess: CSEventKey {
-            get { return CSEventKey(key: "homeElementsAppearSuccess", testCaseName: "TimeToLoadHomePage") }
+        public override var homeElementsAppearSuccess: CSEvent {
+            get { return CSEvent(key: "homeElementsAppear", value: "Success",testCaseName: "TimeToLoadHomePage") }
             set {}
         }
-        public override var homeElementsAppearFail: CSEventKey {
-            get { return CSEventKey(key: "homeElementsAppearFail", testCaseName: "TimeToLoadHomePage") }
+        public override var homeElementsAppearFail: CSEvent {
+            get { return CSEvent(key: "homeElementsAppear", value: "Fail",testCaseName: "TimeToLoadHomePage") }
             set {}
         }
-        public override var enterSearchYes: CSEventKey {
-            get { return CSEventKey(key: "enterSearchYes", testCaseName: "SearchResultTime") }
+        public override var enterSearchYes: CSEvent {
+            get { return CSEvent(key: "enterSearch", value: "Yes",testCaseName: "SearchResultTime") }
             set {}
         }
-        public override var enterSearchNo: CSEventKey {
-            get { return CSEventKey(key: "enterSearchNo", testCaseName: "SearchResultTime") }
+        public override var enterSearchNo: CSEvent {
+            get { return CSEvent(key: "enterSearch", value: "No",testCaseName: "SearchResultTime") }
             set {}
         }
-        public override var searchResultsAppearYes: CSEventKey {
-            get { return CSEventKey(key: "searchResultsAppearYes", testCaseName: "SearchResultTime") }
+        public override var searchResultsAppearYes: CSEvent {
+            get { return CSEvent(key: "searchResultsAppear", value: "Yes",testCaseName: "SearchResultTime") }
             set {}
         }
-        public override var searchResultsAppearNo: CSEventKey {
-            get { return CSEventKey(key: "searchResultsAppearNo", testCaseName: "SearchResultTime") }
+        public override var searchResultsAppearNo: CSEvent {
+            get { return CSEvent(key: "searchResultsAppear", value: "No",testCaseName: "SearchResultTime") }
             set {}
         }
-        public override var clickOnSearchResultYes: CSEventKey {
-            get { return CSEventKey(key: "clickOnSearchResultYes", testCaseName: "SearchResultTime") }
+        public override var clickOnSearchResultYes: CSEvent {
+            get { return CSEvent(key: "clickOnSearchResult", value: "Yes",testCaseName: "SearchResultTime") }
             set {}
         }
-        public override var clickOnSearchResultNo: CSEventKey {
-            get { return CSEventKey(key: "clickOnSearchResultNo", testCaseName: "SearchResultTime") }
+        public override var clickOnSearchResultNo: CSEvent {
+            get { return CSEvent(key: "clickOnSearchResult", value: "No",testCaseName: "SearchResultTime") }
             set {}
         }
-        public override var searchDetailsAppear: CSEventKey {
-            get { return CSEventKey(key: "searchDetailsAppear", testCaseName: "TimeToLoadDetailsPage",valueRequired: true) }
+        public override var searchDetailsAppear: CSEvent {
+            get { return CSEvent(key: "searchDetailsAppear", value: "Yes",testCaseName: "TimeToLoadDetailsPage") }
             set {}
         }
         // add all keys to capt (required+optional or default keys)
