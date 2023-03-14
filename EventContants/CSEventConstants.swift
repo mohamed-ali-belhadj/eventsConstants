@@ -7,7 +7,7 @@
 
 import Foundation
 public class EventConstants {
-    init() {
+    public init() {
     }
     public var start : start = start()
     public var end : end = end()
