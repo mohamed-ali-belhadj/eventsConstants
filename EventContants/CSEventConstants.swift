@@ -7,12 +7,27 @@
 
 import Foundation
 public class EventConstants {
-    public var allEvents : [String] { return [String]()}
-    public struct start { // start journey
-        static let startEventTrue: String = "startEventTrue"
+    init() {
     }
-    public struct end { // end journey
-        static let endEventTrue: String = "endEventTrue"
+    public var start : start = start()
+    public var end : end = end()
+
+    public var allEvents : [String] { return [String]()}
+    public class start: Journey
+    { // start journey
+        override var journeyName: String {
+            get {return "start"}
+            set {}
+        }
+         let startEventTrue: String = "startEventTrue"
+    }
+    public class end: Journey
+    { // start journey
+        override var journeyName: String {
+            get {return "end"}
+            set {}
+        }
+         let endEventTrue: String = "endEventTrue"
     }
     public func checkEvent(eventName: String) -> Bool
     {
