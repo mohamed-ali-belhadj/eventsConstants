@@ -30,9 +30,9 @@ public class HotstarConstants : EventConstants {
             get {return "MoneyTransfer"}
             set {}
         }
-         let transactionInitiatedTrue: String = "transactionInitiatedTrue"
-         let transactionInitiatedFalse: String = "transactionInitiatedFalse"
-         let transactionAmount: String = "transactionAmount"
+        public let transactionInitiatedTrue: String = "transactionInitiatedTrue"
+        public let transactionInitiatedFalse: String = "transactionInitiatedFalse"
+        public let transactionAmount: String = "transactionAmount"
     }
     // MARK: - PurchaseItem
     public class PurchaseItem : Journey{
@@ -40,9 +40,9 @@ public class HotstarConstants : EventConstants {
             get {return "PurchaseItem"}
             set {}
         }
-         let addToBasketTrue: String = "addToBasketTrue"
-         let addToBasketFalse: String = "addToBasketFalse"
-         let numberOfProductInBasket: String = "numberOfProductInBasket"
+        public let addToBasketTrue: String = "addToBasketTrue"
+        public let addToBasketFalse: String = "addToBasketFalse"
+        public let numberOfProductInBasket: String = "numberOfProductInBasket"
     }
     
 }

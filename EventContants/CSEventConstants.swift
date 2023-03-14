@@ -15,19 +15,19 @@ public class EventConstants {
     public var allEvents : [String] { return [String]()}
     public class start: Journey
     { // start journey
-        override var journeyName: String {
+        public override var journeyName: String {
             get {return "start"}
             set {}
         }
-         let startEventTrue: String = "startEventTrue"
+        public let startEventTrue: String = "startEventTrue"
     }
     public class end: Journey
     { // start journey
-        override var journeyName: String {
+        public override var journeyName: String {
             get {return "end"}
             set {}
         }
-         let endEventTrue: String = "endEventTrue"
+        public let endEventTrue: String = "endEventTrue"
     }
     public func checkEvent(eventName: String) -> Bool
     {
