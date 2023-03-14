@@ -26,7 +26,7 @@ public class HotstarConstants : EventConstants {
 
     // MARK: - MoneyTransfer
     public class MoneyTransfer: Journey {
-        override var journeyName: String {
+        public override var journeyName: String {
             get {return "MoneyTransfer"}
             set {}
         }
@@ -36,7 +36,7 @@ public class HotstarConstants : EventConstants {
     }
     // MARK: - PurchaseItem
     public class PurchaseItem : Journey{
-        override var journeyName: String {
+        public override var journeyName: String {
             get {return "PurchaseItem"}
             set {}
         }

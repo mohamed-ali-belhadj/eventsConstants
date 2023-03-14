@@ -42,5 +42,5 @@ public class EventConstants {
 }
 public class Journey
 {
-    var journeyName : String = ""
+    public var journeyName : String = ""
 }
