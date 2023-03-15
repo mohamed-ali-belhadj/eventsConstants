@@ -11,7 +11,6 @@
 		AB0E1C1D29B7779900B2CC6C /* EventContantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0E1C1C29B7779900B2CC6C /* EventContantsTests.swift */; };
 		AB0E1C1E29B7779900B2CC6C /* EventContants.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0E1C1229B7779900B2CC6C /* EventContants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB0E1C2829B777C500B2CC6C /* CSEventConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0E1C2729B777C500B2CC6C /* CSEventConstants.swift */; };
-		AB0E1C2A29B792ED00B2CC6C /* CSEventsConstants+HotStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0E1C2929B792ED00B2CC6C /* CSEventsConstants+HotStar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +29,6 @@
 		AB0E1C1729B7779900B2CC6C /* EventContantsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventContantsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0E1C1C29B7779900B2CC6C /* EventContantsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventContantsTests.swift; sourceTree = "<group>"; };
 		AB0E1C2729B777C500B2CC6C /* CSEventConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSEventConstants.swift; sourceTree = "<group>"; };
-		AB0E1C2929B792ED00B2CC6C /* CSEventsConstants+HotStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CSEventsConstants+HotStar.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +73,6 @@
 			children = (
 				AB0E1C1229B7779900B2CC6C /* EventContants.h */,
 				AB0E1C2729B777C500B2CC6C /* CSEventConstants.swift */,
-				AB0E1C2929B792ED00B2CC6C /* CSEventsConstants+HotStar.swift */,
 			);
 			path = EventContants;
 			sourceTree = "<group>";
@@ -198,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB0E1C2A29B792ED00B2CC6C /* CSEventsConstants+HotStar.swift in Sources */,
 				AB0E1C2829B777C500B2CC6C /* CSEventConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

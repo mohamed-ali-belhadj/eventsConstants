@@ -18,9 +18,8 @@ final class EventConstantsTests: XCTestCase {
     }
     func testConstants()
     {
-        HotstarConstants().checkEvent(eventName: "transactionInitiatedTrue")
-        print(HotstarConstants().moneyTransfer.journeyName)
-        print(HotstarConstants().purchaseItem.addToBasketTrue)
+        print(EventConstants.startEventTrue)
+        print(JouneyConstant.start)
 
     }
 }
