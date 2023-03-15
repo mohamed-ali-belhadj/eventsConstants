@@ -7,18 +7,20 @@
 
 import Foundation
 public struct EventConstants {
-    public static let startEventTrue: String = "startEventTrue"
-    public static let endEventTrue: String = "endEventTrue"
-    public static let addToBasketTrue: String = "addToBasketTrue"
-    public static let addToBasketFalse: String = "addToBasketFalse"
-    public static let numberOfProductInBasket: String = "numberOfProductInBasket"
-    public static let transactionInitiatedTrue: String = "transactionInitiatedTrue"
-    public static let transactionInitiatedFalse: String = "transactionInitiatedFalse"
-    public static let transactionAmount: String = "transactionAmount"
+    public init() {}
+    public  let startEventTrue: String = "startEventTrue"
+    public  let endEventTrue: String = "endEventTrue"
+    public  let addToBasketTrue: String = "addToBasketTrue"
+    public  let addToBasketFalse: String = "addToBasketFalse"
+    public  let numberOfProductInBasket: String = "numberOfProductInBasket"
+    public  let transactionInitiatedTrue: String = "transactionInitiatedTrue"
+    public  let transactionInitiatedFalse: String = "transactionInitiatedFalse"
+    public  let transactionAmount: String = "transactionAmount"
 }
 public struct JouneyConstant {
-    public static let start: String = "start"
-    public static let end: String = "end"
-    public static let moneyTransfer: String = "moneyTransfer"
-    public static let purchaseItem: String = "purchaseItem"
+    public init() {}
+    public  let start: String = "start"
+    public  let end: String = "end"
+    public  let moneyTransfer: String = "moneyTransfer"
+    public  let purchaseItem: String = "purchaseItem"
 }

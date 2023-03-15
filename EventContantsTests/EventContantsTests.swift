@@ -18,8 +18,8 @@ final class EventConstantsTests: XCTestCase {
     }
     func testConstants()
     {
-        print(EventConstants.startEventTrue)
-        print(JouneyConstant.start)
+        print(EventConstants().startEventTrue)
+        print(JouneyConstant().start)
 
     }
 }
