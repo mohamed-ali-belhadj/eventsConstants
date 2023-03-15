@@ -17,7 +17,7 @@ public struct EventConstants {
     public  let transactionInitiatedFalse: String = "transactionInitiatedFalse"
     public  let transactionAmount: String = "transactionAmount"
 }
-public struct JouneyConstant {
+public struct JouneyConstants {
     public init() {}
     public  let start: String = "start"
     public  let end: String = "end"
