@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint MozarkEventContants.podspec' to ensure this is a
+#  Be sure to run `pod spec lint MozarkEventConstants.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,11 +15,11 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "MozarkEventContants"
-  spec.version      = "1.5.13"
-  spec.summary      = "A short description of MozarkEventContants."
+  spec.name         = "MozarkEventConstants"
+  spec.version      = "1.5.14"
+  spec.summary      = "A short description of MozarkEventConstants."
   spec.swift_version	 = '5.0'
-  spec.description  =  "MozarkEventContants used to store constants"
+  spec.description  =  "MozarkEventConstants used to store constants"
   spec.homepage     = "https://mozark.ai/fr/"
 
 
