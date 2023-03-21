@@ -11,6 +11,7 @@ public struct EventConstants {
     public  let startEventTrue: String = "startEventTrue"
     public  let endEventTrue: String = "endEventTrue"
     public  let appLaunch: String = "appLaunch"
+    public  let homeElementsAppear: String = "homeElementsAppear"
     public  let clickSpeedTestButton: String = "clickSpeedTestButton"
     public  let clickOnTestButton: String = "clickOnTestButton"
     public  let clickOnOutdoorButton: String = "clickOnOutdoorButton"
