@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MozarkEventConstants"
-  spec.version      = "1.5.20"
+  spec.version      = "1.5.21"
   spec.summary      = "A short description of MozarkEventConstants."
   spec.swift_version	 = '5.0'
   spec.description  =  "MozarkEventConstants used to store constants"
@@ -54,7 +54,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  spec.platform     = :ios,"13"
+  spec.platform     = :ios,"12"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
